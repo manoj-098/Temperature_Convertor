@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>TEMPERATURE CONVERTOR</h1>
+    </div>
+    <div class="container">
+        <div class="box">
+            <label for="celsius">CELSIUS</label><br>
+            <input type="number" class="celsius" id="celsius" oninput="CtoF();CtoK()" onclick="celsius_Color()">
+        </div>
+        <div class="box">
+            <label>FAHRENHEIT</label><br>
+            <input type="number" id="fahr" oninput="FtoC();FtoK()" onclick="fahr_Color()">
+        </div>
+        <div class="box">
+            <label>KELVIN</label><br>
+            <input type="number" id="kelvin" oninput="KtoC();KtoF()" onclick="kelvin_Color()">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
