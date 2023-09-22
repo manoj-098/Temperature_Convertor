@@ -51,18 +51,24 @@ input::-webkit-inner-spin-button {
         display: none;
 }
         @media screen and (max-width:800px) {
+            .header{
+                display:flex;
+                justify-content: center;
+            }
             h1 {
-                font-size: 4vh;              
+                font-size: 3vh;  
             }
 
             .container {
                 display: block;
                 height: 42vh;
+                width:70vw;
             }
 
             .box {
                 font-size: 2vh;
                 width: 100%;
+                margin-bottom:4vh;
             }
 
             input {
